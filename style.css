@@ -304,6 +304,14 @@ img { max-width: 100%; display: block; }
   position: relative;
   z-index: 1;
 }
+.photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  position: relative;
+  z-index: 1;
+}
 .location-badge {
   margin-top: 16px;
   font-size: 0.85rem;
@@ -733,14 +741,4 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 
-@media (max-width: 640px) {
-  .roi-header {
-    flex-direction: column;
-  }
-  .roi-counter {
-    text-align: left;
-  }
-  .roi-card {
-    padding: 22px;
-  }
-}
+@media (max-width: 640px
