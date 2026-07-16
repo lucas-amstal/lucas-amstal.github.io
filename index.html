@@ -12,12 +12,12 @@
 </head>
 <body>
 
-<!-- ================= NAV ================= -->
 <header class="nav" id="nav">
   <div class="nav-inner">
     <a href="#top" class="logo">LA<span class="dot">.</span></a>
     <nav class="nav-links" id="navLinks">
       <a href="#about">About</a>
+      <a href="#value">Impact</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
@@ -30,7 +30,6 @@
   </div>
 </header>
 
-<!-- ================= HERO ================= -->
 <section class="hero" id="top">
   <div class="hero-bg">
     <div class="grid-overlay"></div>
@@ -60,7 +59,6 @@
   <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
 </section>
 
-<!-- ================= ABOUT ================= -->
 <section class="section" id="about">
   <div class="section-inner">
     <p class="section-tag reveal">01 — About</p>
@@ -101,10 +99,36 @@
   </div>
 </section>
 
-<!-- ================= EXPERIENCE ================= -->
-<section class="section section-alt" id="experience">
+<section class="section section-alt" id="value">
   <div class="section-inner">
-    <p class="section-tag reveal">02 — Experience</p>
+    <p class="section-tag reveal">02 — Impact</p>
+    <h2 class="section-title reveal">Investment vs. impact</h2>
+    <p class="section-lede reveal">
+      A typical ramp-up curve based on how this has played out in past roles: onboarding
+      cost upfront, then compounding value as pipelines, dashboards, and automation come
+      online — illustrative, indexed to starting cost, not a specific employer's figures.
+    </p>
+
+    <div class="roi-card reveal">
+      <div class="roi-header">
+        <div class="roi-legend">
+          <span class="legend-item"><span class="legend-swatch swatch-investment"></span>Cost of hire</span>
+          <span class="legend-item"><span class="legend-swatch swatch-value"></span>Value delivered</span>
+        </div>
+        <div class="roi-counter">
+          <span class="roi-counter-num" id="roiCounterNum">0.0×</span>
+          <span class="roi-counter-label">value created per $ invested, by month 12</span>
+        </div>
+      </div>
+      <div class="roi-chart-container" id="roiChartContainer" aria-label="Chart showing value delivered overtaking cost of hire over 12 months"></div>
+      <p class="roi-footnote">Hover any point on the value line for what typically ships around that month.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="section-inner">
+    <p class="section-tag reveal">03 — Experience</p>
     <h2 class="section-title reveal">Where I've made an impact</h2>
 
     <div class="timeline">
@@ -179,10 +203,9 @@
   </div>
 </section>
 
-<!-- ================= PROJECTS ================= -->
-<section class="section" id="projects">
+<section class="section section-alt" id="projects">
   <div class="section-inner">
-    <p class="section-tag reveal">03 — Projects</p>
+    <p class="section-tag reveal">04 — Projects</p>
     <h2 class="section-title reveal">Things I've built on my own time</h2>
     <p class="section-lede reveal">
       Three open-source data engineering &amp; ML projects, each with its own repo,
@@ -252,10 +275,9 @@
   </div>
 </section>
 
-<!-- ================= SKILLS ================= -->
-<section class="section section-alt" id="skills">
+<section class="section" id="skills">
   <div class="section-inner">
-    <p class="section-tag reveal">04 — Skills</p>
+    <p class="section-tag reveal">05 — Skills</p>
     <h2 class="section-title reveal">Toolkit</h2>
 
     <div class="skills-grid">
@@ -306,10 +328,9 @@
   </div>
 </section>
 
-<!-- ================= CONTACT ================= -->
-<section class="section contact-section" id="contact">
+<section class="section section-alt contact-section" id="contact">
   <div class="section-inner">
-    <p class="section-tag reveal">05 — Contact</p>
+    <p class="section-tag reveal">06 — Contact</p>
     <h2 class="section-title reveal">Let's build something together.</h2>
     <p class="section-lede reveal">
       I enjoy connecting with teams doing interesting work in data.
@@ -339,12 +360,6 @@
   </div>
 </footer>
 
-<!--
-  ANALYTICS
-  Sign up free at https://www.goatcounter.com/signup, pick a site code,
-  then replace YOUR-CODE below with it (e.g. lucasamstalden.goatcounter.com).
-  See README.md for full instructions.
--->
 <script data-goatcounter="https://YOUR-CODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 <script src="script.js"></script>
